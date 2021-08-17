@@ -12,3 +12,11 @@
 
 ### https://hng.tech/
 
+
+Github repo link
+
+### https://github.com/106joshman/Hng-task-2
+
+Host link
+### https://devguy-resume-hng-2.netlify.app/
+
