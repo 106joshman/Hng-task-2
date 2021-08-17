@@ -14,7 +14,6 @@
 
 
 Github repo link
-
 ### https://github.com/106joshman/Hng-task-2
 
 Host link
