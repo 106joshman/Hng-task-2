@@ -3,138 +3,109 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap css -->
-    <link rel="stylesheet" href="./bootstrap.min.css">
-
-    <!-- Bootstrap icon link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    
-    <!-- internal style link -->
+    <!-- css stylesheet -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- page title -->
-    <title>My Resume</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <title>Ejembi Joshua - Resume</title>
 </head>
 <body>
-<!--  -->
-    <div class="container my-4">
-        <!-- compulsory question -->
-        <script src="/index.js"></script>
+    <!-- header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="http://training.zuri.team/">Zuri.Training</a>
+            </div>
 
-        <!-- Frontend track: Resume -->
-        <div class="container-sm">
-            <div class="col border">
-                 <!-- this class will split the page into 2   -->
-                <div class="row">
-                    <div class="col-5 ps-3 left">
-                        <!-- the name section -->
-                        <div class="col text-light mt-4">
-                            <h2 class="my-0">EJEMBI <small>Joshua</small></h2>
-                            <p class="fs-6">Frontend Developer</p>
-                        </div>
-    
-                        <!-- Contact details -->
-                        <div class="col text-light my-5 size">
-                            <p class="my-1"><i class="bi bi-geo-alt"></i> 2/4 Abayomi street, Akoka, Yaba</p>
-                            <p class="my-1"><i class="bi bi-telephone"></i> +234-816 641 1129</p>
-                            <p class="my-1"><i class="bi bi-envelope"></i> ejembijoshman@gmail.com</p>
-                            <a class="text-light text-decoration-no" href="http://github.com/106joshman"><i class="bi bi-github"></i> Github</a>
-                        </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#resume">Resume</a>
+                <a href="#comp">compulsory</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+            <section class="hero">
+                <img src="/Screenshot_20210818-162633_Gallery.jpg" alt="my image" srcset="">
+            <div class="bio-data">
+                <h1 class="name">Ejembi Joshua</h1>
+                <p>Frontend Developer</p>
+                <p>2/4 Abayomi street, Akoka, Yaba</p>
+                <p>+234-816 641 1129</p>
+                <p> ejembijoshman@gmail.com</p>
+            </div>
+            <div class="lin">
+                <a href="http://facebook.com/joshman.ejembi"><i class="fab fa-facebook-f"></i></a>
+                <a href="http://twitter.com/Ayam_joshman"><i class="fab fa-twitter"></i></a>
+                <a href="http://github.com/106joshman"><i class="fab fa-github"></i></a>
+            </div>
+            </section>
 
-                        <!-- Highlights -->
-                        <div class="col my-5">
-                            <h3 class="text-light mt-5">Highlights</h3>
-                            <ul>
-                                <small><p class="text-light my-1">Proactive, result-oriented, willingness to learn</p></small>
-                                <small><p class="text-light my-1">Knack for professionalism</p></small>
-                                <small><p class="text-light my-1">Strong communication skill</p></small>
-                                <small><p class="text-light my-1">Superior attention to details</p></small>
-                                <small><p class="text-light my-1">Effective team player</p></small>
-                                <small><p class="text-light my-1">Good manners</p></small>
-                            </ul>
-                        </div>
+            <div class="about" id="about">
+                <div class="statement">
+                    <h2>About me</h2>
+                    <p>Hi, my friends call me <strong>Josh</strong>.</p>
+                    <p>I'm a keen, exceptional, and a creative frontend developer with a high sense of responsibility, I am knowledgeable and skilled with the principles and techniques of website development and maintenance. I work effectively with teammates, i can be very sarcastic and jovial, but most of all I respect other peoples opinion and input no matter how little. And i do CARE.</p>
+                </div>
 
-                        <!-- Certification -->
-                        <div class="col my-5">
-                            <h3 class="text-light">Certification</h3>
-                            <ul>
-                                <a href="https://training.zuri.team/"><img src="/ms5faj5pae6nd03wazk1.png" alt="Zuri x i4g logo" class="img-thumbnail" width="50%"></a><small><p class="text-light my-1"><a class="text-light" href="https://training.zuri.team/">Zuri</a> X I4g training</p></small>
-                                <p class="text-light">Frontend Developer</p>
-                                
-                                <a href="https://hng.tech/"><img src="/IMG-20210817-WA0043.jpg" alt="HNG logo" class="img-thumbnail" width="30%"></a><small><p class="text-light my-1"><a class="text-light" href="https://hng.tech/">HNG8</a> Internship</p></small>
-                                <small><p class="text-light">Frontend Developer (On-going)</p></small>
-                            </ul>
-                        </div>
-                    </div>
-    
-                    <div class="col-7 right">
-                        <!-- my profile statement -->
-                        <div class="col mt-4">
-                            <h3 class="text-muted fw-bold top">Summary</h3>
-                            <p>I am a talented, and exceptionsally creative frontend developer with a high sense of responsibility, a good customer service skill, and also well skilled in HTML5, CSS3, Bootstrap library, and Javascript. I am knowledgeable and skilled with the principles and techniques of website development and maintenance.
-                            </p>
-                        </div>
+                <div class="skills">
+                    <h3>My Super powers</h3>
+                    <ul>
+                        <p>Proactive, result-oriented, willingness to learn</p>
+                        <p>Knack for professionalism</p>
+                        <p>Strong communication skill</p>
+                        <p>Superior attention to details</p>
+                        <p>Effective team player</p>
+                        <p>Good manners</p>
+                    </ul>
+                </div>
+            </div>
 
-                        <!-- work experience -->
-                        <div class="col my-4">
-                            <div class="col my-4">
-                                <h3 class="text-muted fw-bold">Experience</h3>
-                                <p class="fw-bold my-0 fs-5">Firstbank of Nigeria</p>
-                                <small><p class="fw-bold my-0">Lagos island.</p></small>
-                                <small><p class=" my-0">2019 till date.</p></small>
-                                <small><p>Front desk officer</p></small>
-                            </div>
-                            
-                            <div class="col my-4">
-                                <p class="fw-bold my-0 fs-5">ABBA VENTURES,</p>
-                                <small><p class="fw-bold my-0">13 Okesuna street, Obalende Lagos island</p></small>
-                                <small><p class="my-0">Installation and maintenance of CCTV system, fire alarm and access control system</p></small>
-                            </div>
+            <div class="resume" id="resume">
+                <div class="educ">
+                    <h3>What do I know?</h3>
+                    <p>I'm a graduate of physics with electronics from Osun state university, Osogbo, I also know how to setup and install survillance and monitoring security system (CCTV), a little bit of access control and fire alarm system.</p>
+                    <p>I joggle working in a financial institution and coding (lol), when I'm not coding, i enjoy watching movies, listening to music, i also enjoy family time or being out with friends, and i love dogs too.</p>
+                </div>
 
-                            <div class="col my-4">
-                                <p class="fw-bold my-0 fs-5">National Youth Service Corp</p>
-                                <small><p class="fw-bold my-0">St. John of God secondary school, Awka, Anambra State.</p></small>
-                                <small><p class="my-0">Editorial and publicity CDS group(Head of Technical unit)</p></small>
-                            </div>
+                <div class="works">
+                    <h3>Super abilities</h3>
+                    <p>As a frontend developer, i am fluent with</p>
+                    <ul>
+                        <p>Html5</p>
+                    <p>CSS3</p>
+                    <p>Bootstrap</p>
+                    <p>Javascript <strong>(intermediate)</strong></p>
+                    </ul>
+                    <p>Curently learning React.js, constant development is the key.</p>
+                </div>
+                
+                <div class="comp" id="comp">
+                    <p id="demo">Hello there.</p>
 
-                            <div class="col my-4">
-                                <p class="fw-bold my-0 fs-5">Industrial Training (SIWES)</p>
-                                <small><p class="fw-bold my-0">Nigerian Ports Authority, Marina, Lagos</p></small>
-                                <small><p class="my-0">2013</p></small>
-                                <ul class="sub">
-                                    <small><li class="my-0">Installations and maintenance of intercoms within Apapa port complex</li></small>
-                                    <small><li>Maintenance of the PABX machine.</li></small>
-                                </ul>
-                            </div>                    
-                        </div>
+                    <div class="but">
+                        <button type="button" onclick='document.getElementById("demo").innerText = "Ejembi Joshua"'>Click me!</button>
 
-                        <!-- Education -->
-                        <div class="col my-4">
-                                <h3 class="text-muted fw-bold">Education</h3>
-                                <p class="fw-bold my-0">Bachelor of science (Hons)</p>
-                                <small><p class="my-0">physics with electronics 2016</p></small>
-                                <small><p class=" mb-4"> Osun state university Oshogbo, Osun State.</p></small>
+                    <button type="button" onclick='document.getElementById("demo").style.display="none"'>Clear</button>
 
-                                <p class="fw-bold my-0">West African Senior School Certificate</p>
-                                <small><p class="my-0">WASSCE - 2010</p></small>
-                                <small><p class=" mb-4">Good luck comprehensive college orimedu, Ikorodu, Lagos State</p></small>
-
-                                <p class="fw-bold my-0">First School Leaving Certificate (FSLC)</p>
-                                <small><p class="my-0">2003</p></small>
-                                <small><p class=" mt-0 mb-5">New heritage international school, Akoka, Lagos.</p></small>
-                                
-                        </div>
+                    <button type="button" onclick='document.getElementById("demo").style.display="initial"'>Tap to show</button>
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 
-    <!-- bootstrap js -->
-    <script src="/bootstrap.bundle.min.js"></script>
-
+    <footer>
+        <div class="attribution">
+            <a href="https://training.zuri.team/"><img src="/1629303778762.jpg" alt="" width="30px" height="50px" srcset=""></a>
+            
+            <a href="https://hng.tech/" target="_blank"><img src="/1629303762065.jpg" alt="" srcset=""></a>
+          </div>
+          <div class="foot">
+            <p>&COPY; Ejembi Joshua CV 2021</p>
+          </div>
+    </footer>
 </body>
 </html>
